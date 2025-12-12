@@ -1,4 +1,4 @@
-# Devu — The Open-Source Developer University
+# The Open-Source Developer University
 
 **No tutorials. No shortcuts. Build real projects, submit your work, and get peer-reviewed.**
 
