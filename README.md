@@ -38,8 +38,42 @@ Our mission is to build **real developers, not vibe coders**.
 
 ## Getting Started
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/DEVU-ORG/DEVU.git
-   cd DEVU
+Follow these steps to start using Devu:
+
+### 1. Clone the repository
+```
+git clone https://github.com/DEVU-ORG/DEVU.git
+cd DEVU
+```
+
+### 2. Explore tracks and projects
+All learning paths are organized under the `tracks/` directory. Each track contains one or more projects. For example:
+
+```
+tracks/
+  backend-engineering/
+    build-http-server/
+    database-api/
+  frontend-engineering/
+    react-dashboard/
+    ui-components/
+```
+
+Navigate the directories to see project assignments, starter code, tests, and solutions.
+
+### 3. Run the CLI
+The Devu CLI is your student portal for interacting with projects. For now, it will support the following commands:
+
+```
+# Initialize a project in your local workspace
+devu init <project-name>
+
+# Run tests for the current project
+devu test
+
+# Submit the project via a pull request
+devu submit
+```
+
+Further installation and usage instructions will be added as the CLI develops.
 
